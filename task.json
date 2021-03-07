@@ -7,7 +7,7 @@
           "logConfiguration": { 
              "logDriver": "awslogs",
              "options": { 
-                "awslogs-group" : "ecs/sample",
+                "awslogs-group" : "/ecs/sample",
                 "awslogs-region": "ap-south-1",
                 "awslogs-stream-prefix": "ecs"
              }
